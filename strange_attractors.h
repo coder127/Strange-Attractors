@@ -1,9 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-// (C) Andy Thomason 2012-2014
-//
-// Modular Framework for OpenGLES2 rendering on multiple platforms.
-//
+
 
 #include <Windows.h>
 #include <iostream>
@@ -13,8 +8,6 @@
 
 namespace octet {
 
-
-	/// Scene containing a box with octet.
 	class strange_attractors : public app {
 
 		ref<visual_scene> app_scene;
